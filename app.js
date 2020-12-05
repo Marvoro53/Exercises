@@ -36,9 +36,25 @@ console.log(fullName);
 var bill= 10.25 + 3.99 + 7.15;
 var tip= bill * 0.15;
 var total= bill + tip;
-console.log("$",total);
+console.log("$" + total);
 //10
+let firstName = 'Hi, my name is Julia.'
+let interest = 'I love cats.'
+let hobby = 'I like to play video games.'
+const JuliaMessage = firstName + "" + interest + "" + hobby;
+console.log(JuliaMessage);
 
+let secondName = 'Hi, my name is James ';
+let interest2 = 'I love baseball ';
+let hobby2 = 'I like to read ';
+const jamesMessage = secondName + "" + interest2 + "" + hobby2;
+console.log(jamesMessage)
+
+let thirdName = 'Hi, my name is Marvin';
+let interest3 = 'I love soccer ';
+let hobby3 = 'I like to listen to music ';
+const marvinMessage = thirdName + "" + interest3 + "" + hobby3;
+console.log(marvinMessage)
 //11
 var big= "I'm BIG like an elephant";
 var small= "I'm small like a mouse";
